@@ -138,6 +138,8 @@ Requires Neovim **0.9+** (for `@markup.*` and `@lsp.*` captures) and `termguicol
 }
 ```
 
+The same spec ships as a drop-in file at [`extras/lazy-spec.lua`](extras/lazy-spec.lua) — copy it into `~/.config/nvim/lua/plugins/` and lazy auto-imports on next launch (this is also what `slatewave install neovim` writes for you).
+
 ### packer.nvim
 
 ```lua
